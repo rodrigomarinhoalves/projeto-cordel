@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Poppins:ital,wght@1,100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --font-title: 'Bangers', cursive;
+  --font-paragrafo: 'Edu TAS Beginner', cursive;
+  --font-demais: 'Poppins', sans-serif;
+}
+
+html, body{
+  min-height: 100vh;
+  background-color: darkgray;
+  text-align: center;
+}
+
+header{
+  background-color: black;
+  color: white;
+}
+
+header > h1{
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-family: var(--font-title);
+  font-size: 4em;
+  letter-spacing: 0.2em;
+}
+
+header > p{
+  padding-bottom: 50px;
+  font-family: var(--font-demais);
+  letter-spacing: 0.08em;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+section{
+  padding-top:10vh;
+  padding-bottom: 10vh;
+  line-height: 2em ;
+  padding-left: 30px;
+  font-family: var(--font-paragrafo);
+  font-size: 1.5em;
+}
+
+section > p{
+  padding-bottom: 2rem;
+}
+
+.normal{
+  background-color: white;
+  color: black;
+}
+
+.imagem{
+  background-color: rgb(51,51,51);
+  color: white;
+  background-position: right center;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.464);
+}
+
+.imagem > p{
+  width: 20rem;
+  background-color: rgba(0, 0, 0, 0.292);
+  text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.729);
+}
+
+#img1{
+  background-image: url(../imagens/background001.jpg);
+  
+}
+
+#img2{
+  background-image: url(../imagens/background002.jpg);
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: var(--font-demais);
+}
